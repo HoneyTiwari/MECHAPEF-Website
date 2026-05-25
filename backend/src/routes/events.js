@@ -2,7 +2,7 @@ import { Router } from 'express';
 import * as eventController from '../controllers/eventController.js';
 import * as registrationController from '../controllers/registrationController.js';
 import { authenticate, checkRole } from '../middleware/auth.js';
-import { publicLimiter } from '../middleware/security.js';
+// import { imiter } from '../middleware/security.js';
 
 const router = Router();
 
